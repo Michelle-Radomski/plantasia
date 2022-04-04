@@ -9,9 +9,12 @@
 </head>
 
 <body>
-    @include('_partials.header')
-    @yield('home')
-    @include('_partials.footer')
+    <main>
+        @include('layouts.style')
+        @include('_partials.header')
+        @yield('home')
+        @include('_partials.footer')
+    </main>
 </body>
 
 </html>
