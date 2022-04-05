@@ -38,10 +38,17 @@ a {
 }
 
 #name {
-    order: 2;
     color: rgb(80, 122, 80);
     font-size: 42px;
     font-weight: bold;
+}
+
+.middle {
+    order: 2;
+}
+
+.left {
+    order: 1;
 }
 
 .right {
