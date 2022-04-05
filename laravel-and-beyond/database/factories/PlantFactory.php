@@ -20,7 +20,15 @@ class PlantFactory extends Factory
             'nickname' => $this->faker->name(),
             'official_name' => $this->faker->name(),
             'toxic' => $this->faker->boolean(),
-            'light' => $this->faker->name(),
+            'light' => $this->faker->words(3, true),
+            'temperature' => $this->faker->words(3, true),
+            'humidity' => $this->faker->words(3, true),
+            'water' => $this->faker->sentence(6),
+            'plant_fertilizer' => $this->faker->sentence(6),
+            'soil' => $this->faker->sentence(6),
+            'misting' => $this->faker->words(3, true),
+            'repot' => $this->faker->sentence(6),
+            'air_purifying' => $this->faker->boolean(),
         ];
     }
 }

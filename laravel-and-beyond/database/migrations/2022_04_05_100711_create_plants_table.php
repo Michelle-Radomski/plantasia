@@ -19,6 +19,14 @@ return new class extends Migration
             $table->string('official_name');
             $table->boolean('toxic');
             $table->string('light');
+            $table->string('temperature');
+            $table->string('humidity');
+            $table->string('water');
+            $table->string('plant_fertilizer');
+            $table->string('soil');
+            $table->string('misting');
+            $table->string('repot');
+            $table->boolean('air_purifying');
             $table->timestamps();
         });
     }
