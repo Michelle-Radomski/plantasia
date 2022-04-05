@@ -19,3 +19,4 @@ use App\Http\Controllers\HomeController;
 // });
 
 Route::get('/home', [HomeController::class, 'home']);
+Route::get('/myplants', [HomeController::class, 'plantsOverview']);
