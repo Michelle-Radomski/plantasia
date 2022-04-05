@@ -13,6 +13,7 @@
     <main>
         @include('_partials.header')
         @yield('home')
+        @yield('myplants')
         @include('_partials.footer')
     </main>
 </body>
