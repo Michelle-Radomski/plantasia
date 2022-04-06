@@ -9,6 +9,8 @@ body {
 
 main {
     background-color: #fffcf9;
+    margin: 15px;
+    min-height: 100vh;
 }
 
 header {
@@ -58,5 +60,7 @@ a {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #f0e4d8d2;
+    height: 50px;
 }
