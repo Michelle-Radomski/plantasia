@@ -20,3 +20,5 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/home', [HomeController::class, 'home']);
 Route::get('/myplants', [HomeController::class, 'plantsOverview']);
+// TODO: CREATE ROUTE TO VIEW DETAIL PAGE FOR SPECIFIC PLANT
+Route::get('/myplants/{id}', [HomeController::class, 'plantDetails']);
