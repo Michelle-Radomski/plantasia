@@ -5,17 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="app.css">
+    <title>Plantasia</title>
+    <link rel="stylesheet" href="{{ asset('app.css') }}">
 </head>
 
 <body>
+    @include('_partials.header')
     <main>
-        @include('_partials.header')
         @yield('home')
         @yield('myplants')
-        @include('_partials.footer')
+        @yield('plantdetails')
     </main>
+    @include('_partials.footer')
 </body>
 
 </html>
