@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('plants', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('user_id');
             $table->string('nickname');
             $table->string('official_name');
             $table->boolean('toxic');

@@ -17,6 +17,7 @@ class PlantFactory extends Factory
     public function definition()
     {
         return [
+            'user_id' => $this->faker->numberBetween(1, 10),
             'nickname' => $this->faker->name(),
             'official_name' => $this->faker->name(),
             'toxic' => $this->faker->boolean(),
