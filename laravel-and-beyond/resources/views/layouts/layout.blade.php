@@ -15,6 +15,7 @@
         @yield('home')
         @yield('myplants')
         @yield('plantdetails')
+        @yield('create')
     </main>
     @include('_partials.footer')
 </body>
