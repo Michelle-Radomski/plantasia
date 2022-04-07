@@ -11,7 +11,7 @@
             care
             of our little babies in that case.
             Luckily Plantasia has you covered! It will help you keep track of your collection of plants. You can easily
-            access your overview <a href="myplants">here</a> or via My Plants.
+            access your overview <a href="{{ route('myplants') }}">here</a> or via My Plants.
         </p>
         <h2>What else has Plantasia to offer?</h2>
         <p>Not only can you check information about your plants, you can also add, update and even delete (RIP) plants
