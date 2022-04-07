@@ -21,5 +21,4 @@ use App\Http\Controllers\HomeController;
 Route::get('/home', [HomeController::class, 'home'])->name('home');
 Route::get('/myplants', [HomeController::class, 'plantsOverview'])->name('myplants');
 Route::get('/myplants/{id}', [HomeController::class, 'plantDetails'])->name('plantdetails');
-
-Route::get('myplants/addplant', [HomeController::class, 'create'])->name('addplant');
+Route::get('addplant', [HomeController::class, 'create'])->name('addplant');

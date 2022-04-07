@@ -28,4 +28,9 @@ class HomeController extends Controller
         $plant = Plant::find($id);
         return view('plantdetails', ['plant' => $plant]);
     }
+
+    public function create()
+    {
+        return view('create');
+    }
 }
