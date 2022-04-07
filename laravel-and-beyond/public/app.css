@@ -31,6 +31,10 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 
+p {
+    font-size: 18px;
+}
+
 /************************ general header + footer styling **************************/
 .middle {
     order: 2;
@@ -85,10 +89,6 @@ footer {
     height: 50px;
 }
 
-p {
-    font-size: 18px;
-}
-
 /*********************** myplants view specific styling ***********************/
 .plantoverviewcontainer {
     display:flex;
@@ -99,7 +99,7 @@ p {
     width: 80%;
 }
 
-.plantoverviewsmall {
+.plantoverviewarticle {
     border: 2px solid rgb(72, 26, 6);
     border-right: 8px solid rgb(72, 26, 6);
     border-bottom: 5px solid rgb(72, 26, 6);
@@ -120,7 +120,14 @@ p {
     margin-bottom: 5px;
 }
 
-/******************************* plantdetails view specific styling ***************************/
+.button {
+    background-color: rgb(29, 10, 2);
+    border-radius: 3px;
+    color:rgb(255, 247, 219);
+    padding: 5px 20px;
+}
+
+/******************************* homepage view specific styling ***************************/
 .plantasiahomepagecontent {
     width: 70%;
     margin: 0 auto;
@@ -128,4 +135,49 @@ p {
 .plantasiahomepagecontent h1 {
     text-align: center;
     font-size: 46px;
+}
+.plantasiahomepagecontent a {
+    text-decoration: underline;
+}
+
+/*************************** create plant form specific styling ******************************/
+.formcontainer {
+    max-width: 600px;
+    background-color: #7b917f29;
+    margin: 0 auto;
+    /* border: 2px solid rgb(72, 26, 6); */
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px;
+}
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input {
+    width: 250px;
+    padding: 3px;
+    margin: 10px;
+}
+input[type=submit] {
+    width: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: 1px solid rgb(4, 137, 4);
+    border: 3px solid rgb(4, 137, 4);
+    color:rgb(29, 10, 2)
+}
+select {
+    width: 90px;
+    padding: 3px;
+    margin: 10px;
 }
