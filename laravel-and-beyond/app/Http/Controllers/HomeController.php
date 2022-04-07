@@ -21,7 +21,6 @@ class HomeController extends Controller
         return view('myplants', ['plants' => $plants, 'user' => $user]);
     }
 
-    //TODO: CREATE DETAIL PAGE FOR SPECIFIC PLANT
     public function plantDetails(Request $request)
     {
         $id = $request->id;
@@ -32,5 +31,24 @@ class HomeController extends Controller
     public function create()
     {
         return view('create');
+    }
+
+    public function store(Request $request)
+    {
+        $plant = new Plant;
+        $plant->nickname = $request->nickname;
+        $plant->official_name = $request->official_name;
+        $plant->water = $request->water;
+        $plant->light = $request->light;
+        $plant->temperature = $request->temperature;
+        $plant->humidity = $request->humidity;
+        $plant->misting = $request->misting;
+        $plant->soil = $request->soil;
+        $plant->plant_fertilizer = $request->plant_fertilizer;
+        $plant->toxic = $request->toxic;
+        $plant->repot = $request->repot;
+        $plant->air_purifying = $request->air_purifying;
+        $plant->save();
+        return redirect('myplants');
     }
 }

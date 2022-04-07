@@ -2,7 +2,7 @@
 
 @section('create')
     <section class="formcontainer">
-        <form action="" method="post">
+        <form action="{{ route('create_form') }}" method="post">
             @csrf
             <div>
                 <label for="nickname">Nickname</label>
