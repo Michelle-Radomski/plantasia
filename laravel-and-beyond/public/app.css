@@ -1,3 +1,4 @@
+/***************************** general styling **************************/
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,19 @@ body {
 main {
     margin: 15px;
     min-height: 100vh;
+}
+
+/************************ general header + footer styling **************************/
+.middle {
+    order: 2;
+}
+
+.left {
+    order: 1;
+}
+
+.right {
+    order: 3;
 }
 
 header {
@@ -46,10 +60,20 @@ a {
     font-weight: bold;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0e4d8d2;
+    height: 50px;
+}
+
+/*********************** myplants view specific styling ***********************/
 .plantoverviewcontainer {
     display:flex;
+    justify-content: start;
     margin: 0 auto;
-    gap: 10px 40px;
+    gap: 10px 20px;
     flex-wrap: wrap;
     width: 80%;
 }
@@ -87,22 +111,3 @@ hr {
     text-align: center;
 }
 
-.middle {
-    order: 2;
-}
-
-.left {
-    order: 1;
-}
-
-.right {
-    order: 3;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f0e4d8d2;
-    height: 50px;
-}
