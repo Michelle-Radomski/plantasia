@@ -12,10 +12,7 @@
 <body>
     @include('_partials.header')
     <main>
-        @yield('home')
-        @yield('myplants')
-        @yield('plantdetails')
-        @yield('create')
+        @yield('content')
     </main>
     @include('_partials.footer')
 </body>

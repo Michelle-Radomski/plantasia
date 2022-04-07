@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('myplants')
+@section('content')
     <section class="plantoverviewcontent">
         <p>Welcome {{ $user->name }}!</p>
         <p>Here is an overview of your plants:</p>

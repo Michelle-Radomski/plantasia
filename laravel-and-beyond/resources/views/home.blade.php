@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('home')
+@section('content')
     <section class="plantasiahomepagecontent">
         <h1>Plantasia, keep track of your urban jungle</h1>
         <h2>Overview for your green friends</h2>

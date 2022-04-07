@@ -1,6 +1,6 @@
 @extends('layouts.layout')
 
-@section('create')
+@section('content')
     <section class="formcontainer">
         <form action="{{ route('create_form') }}" method="post">
             @csrf
