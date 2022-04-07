@@ -27,13 +27,14 @@
             you found out something interesting about your little buddy? Whatever the reason,
             it's always handy to be able to update information about a specific plant.
             You've probably noticed the big button "Update" when you visit a specific plant in your collection?
+            Give it a try!
         </p>
         <h3>Delete</h3>
         <p>Ofourse we do everything we can to make our plants feel at home but sometimes things go wrong and they die.
             Or,
             on a more positive note,
             maybe you decided to give away a plant as a gift! To keep our collection clean and tidy, it's necesarry to
-            delete some plants from our colelction.
+            delete some plants from our collection.
             As for anything else, we got you covered. You can delete any specific plant that's no longer in your
             possession.
             Just like with update you can find a "Delete" button when you visit a specific plant in your collection.
