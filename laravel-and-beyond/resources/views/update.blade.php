@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="formcontainer">
-        <form action="{{ route('update_form', ['id' => $plant->id]) }}" method="post">
+        <form action="{{ route('update_form', ['id' => $plant->id]) }}" method="post" enctype="multipart/form-data">
             @csrf
             <div>
                 <label for="nickname">Nickname</label>
@@ -73,6 +73,11 @@
                     <option value="yes">Yes</option>
                     <option value="no">No</option>
                 </select><br>
+            </div>
+
+            <div>
+                <label for="image">Picture</label>
+                <input type="file" id="image" name="image">
             </div>
 
             <input type="submit" name="update" value="UPDATE" class="button">
