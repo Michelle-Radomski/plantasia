@@ -15,10 +15,10 @@ return new class extends Migration
     {
         Schema::create('plants', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('user_id');
+            $table->foreignId('user_id')->default(1);
             $table->string('nickname');
             $table->string('official_name');
-            $table->boolean('toxic');
+            $table->string('toxic');
             $table->string('light');
             $table->string('temperature');
             $table->string('humidity');
@@ -27,7 +27,8 @@ return new class extends Migration
             $table->string('soil');
             $table->string('misting');
             $table->string('repot');
-            $table->boolean('air_purifying');
+            $table->string('air_purifying');
+            // $table->string('plant_image');
             $table->timestamps();
         });
     }

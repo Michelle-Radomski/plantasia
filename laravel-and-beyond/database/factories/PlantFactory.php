@@ -20,7 +20,7 @@ class PlantFactory extends Factory
             'user_id' => $this->faker->numberBetween(1, 10),
             'nickname' => $this->faker->name(),
             'official_name' => $this->faker->name(),
-            'toxic' => $this->faker->boolean(),
+            'toxic' => $this->faker->randomElement(['yes', 'no']),
             'light' => $this->faker->words(3, true),
             'temperature' => $this->faker->words(3, true),
             'humidity' => $this->faker->words(3, true),
@@ -29,7 +29,7 @@ class PlantFactory extends Factory
             'soil' => $this->faker->sentence(6),
             'misting' => $this->faker->words(3, true),
             'repot' => $this->faker->sentence(6),
-            'air_purifying' => $this->faker->boolean(),
+            'air_purifying' => $this->faker->randomElement(['yes', 'no']),
         ];
     }
 }
