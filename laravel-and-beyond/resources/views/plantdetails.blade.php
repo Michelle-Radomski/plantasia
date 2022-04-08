@@ -24,7 +24,9 @@
         <p>{{ $plant->repot }}</p>
         <h2>Air purifying</h2>
         <p>{{ $plant->air_purifying }}</p>
-        <a href="{{ route('updateplant', ['id' => $plant->id]) }}" class="button">UPDATE</a>
-        <a href="{{ route('deleteplant', ['id' => $plant->id]) }}" class="button">DELETE</a>
+        <div>
+            <a href="{{ route('updateplant', ['id' => $plant->id]) }}" class="button">UPDATE</a>
+            <a href="{{ route('deleteplant', ['id' => $plant->id]) }}" class="button">DELETE</a>
+        </div>
     </section>
 @endsection
