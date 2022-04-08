@@ -132,6 +132,18 @@ footer {
     font-size: 36px;
     border-bottom: 1px solid #a39282b4;
 }
+#plantdetailscontainer div {
+    margin-top: 40px;
+}
+
+/******************************* repot view specific styling *******************************/
+#repotcontainer h1 {
+    font-size: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
 
 /******************************* homepage view specific styling ***************************/
 #plantasiahomepagecontent h1 {
