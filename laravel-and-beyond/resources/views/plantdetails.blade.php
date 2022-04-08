@@ -2,6 +2,7 @@
 
 @section('content')
     <section>
+        <a href="{{ route('updateplant', ['id' => $plant->id]) }}" class="button">UPDATE</a>
         <h1>{{ $plant->nickname }}</h1>
         <h2>Official name</h2>
         <p>{{ $plant->official_name }}</p>
