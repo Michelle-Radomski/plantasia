@@ -30,3 +30,5 @@ Route::get('myplants/updateplant/{id}', [HomeController::class, 'updateView'])->
 Route::post('update_form', [HomeController::class, 'update'])->name('update_form');
 
 Route::get('/myplants/deleteplant/{id}', [HomeController::class, 'delete'])->name('deleteplant');
+
+Route::get('/repotting', [HomeController::class, 'repotting'])->name('repotting');

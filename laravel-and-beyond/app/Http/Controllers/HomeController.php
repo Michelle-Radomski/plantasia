@@ -84,4 +84,9 @@ class HomeController extends Controller
         $plant->delete();
         return redirect()->route('myplants');
     }
+
+    public function repotting()
+    {
+        return view('repot');
+    }
 }
