@@ -1,54 +1,24 @@
-# Laravel and beyond
+# Project: Laravel and beyond
 
-- Repository: `laravel-and-beyond`
-- Type of Challenge: `Consolidation challenge`
-- Duration: `1 week`
-- Deployment strategy : `n/a`
-- Team challenge : `solo`
+## Important note
 
-## Prerequisite knowledge
-Ideally, you know the following things before starting this exercise:
+Ever since we started using laravel for our projects, I had some trouble with my laptop. All of them were fixable except one: npm. For some unknown reason I can use npm install in my terminal but the moment I want to use npm run dev or npm run watch, it doesn't work anymore. Unfortunately I could not use SASS or tailwind for this project. Instead I used vanilla CSS to add some styling. 
+## The goal
+
+This project is to test my knowledge of:
 
 - How to setup a basic Laravel application
 - How to work with a database
 - Have a basic understanding of MVC (model-view-controller) and CRUD (create-read-update-delete)
 
-This exercise aims to let you use that knowledge to start building (slightly) bigger things!
+in order to prepare for building (slightly) bigger things.
 
-## The Mission
-Our goal is to build a system to manage bigger amounts of data.
-What kind of data? Well, you can certainly have a say about that!
+## My topic :palm_tree::seedling::sunflower:
 
-Some suggestions of what your webapp could do:
-- Keep track of everything you read (or watch)
-- Manage memberships for your local sports team
-- List things you want to sell or give away
+The coaches of our class let us choose our own idea for a website with the requirement of a database. 
+I chose something with plants cause I was (totally not intentional for this exercise) just making a list of all my plants at home and how to take care of them. 
 
-### 🌱 Must have features
+The idea is to create an environment where people can keep track of their plants. The more plants you have, the more difficult it seems to become to remember which plant needs what exactly. Users would be able to create an account and when they log in, they get to see their collection of plants where they can add new plants and update or delete existing ones.
 
-> These requirements are a bit more technical, to give you freedom in deciding what exact features you want to implement
-
-- A routing system
-- Best practises for PHP (PSR12, readable code, ...)
-- A well written git history (if you get famous one day, it needs to be enough to be included in your biography)
-- Adhere to an MCV-like structure
-- Have (at least one) flow similar to CRUD
-- Different types of relationships for your models
-- Basic design (using CSS frameworks is okay, goal is to have a decent basic, so you can show it to companies later)
-- Check what packages can be useful 
-
-### 🌼 Nice to have features (doable)
-
-- Upgrade the design: custom CSS or finetuned usage of CSS frameworks
-- Do a UX scan: what areas can be improved?
-- Make use of custom error for error handling
-- Find a Laravel technique which is new to you to apply
-
-### 🌳 Nice to haves (hard)
-
-- A login system & user management
-- Rights management: pay attention to who is allowed to change what items
-
-## Ready to go beyond?
-
-![Go beyond!!](https://media.giphy.com/media/UoCA5JIbXgq9q/giphy.gif)
+The idea I had in mind is not fully finished in this project but I may do so in the future.
+For now you can add, update and delete plants (CRUD principle) but I haven't implemented a login yet. To still showcase my idea, I filled the database with fake plants and fake users to at least show the goal of this project.
