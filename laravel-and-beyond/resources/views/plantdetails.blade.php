@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-    <section id="plantdetailscontainer">
+    <section id="plantdetailscontainer" class="container">
         <h1>{{ $plant->nickname }}</h1>
         <h2>Official name</h2>
         <p>{{ $plant->official_name }}</p>

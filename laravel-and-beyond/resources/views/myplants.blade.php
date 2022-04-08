@@ -4,7 +4,7 @@
     <section class="plantoverviewcontent">
         <p>Welcome {{ $user->name }}!</p>
         <p>Here is an overview of your plants:</p>
-        <section class="plantoverviewcontainer">
+        <section id="plantoverviewcontainer" class="container">
             @foreach ($plants as $plant)
                 <article class="plantoverviewarticle">
                     <h1>{{ $plant->nickname }}</h1>
