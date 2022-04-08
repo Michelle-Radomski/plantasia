@@ -1,8 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-    <section>
-        <a href="{{ route('updateplant', ['id' => $plant->id]) }}" class="button">UPDATE</a>
+    <section id="plantdetailscontainer">
         <h1>{{ $plant->nickname }}</h1>
         <h2>Official name</h2>
         <p>{{ $plant->official_name }}</p>
@@ -25,5 +24,7 @@
         <p>{{ $plant->repot }}</p>
         <h2>Air purifying</h2>
         <p>{{ $plant->air_purifying }}</p>
+        <a href="{{ route('updateplant', ['id' => $plant->id]) }}" class="button">UPDATE</a>
+        <a href="{{ route('deleteplant', ['id' => $plant->id]) }}" class="button">DELETE</a>
     </section>
 @endsection

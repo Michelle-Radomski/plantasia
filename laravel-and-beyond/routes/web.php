@@ -28,3 +28,5 @@ Route::post('create_form', [HomeController::class, 'store'])->name('create_form'
 
 Route::get('myplants/updateplant/{id}', [HomeController::class, 'updateView'])->name('updateplant');
 Route::post('update_form', [HomeController::class, 'update'])->name('update_form');
+
+Route::get('/myplants/deleteplant/{id}', [HomeController::class, 'delete'])->name('deleteplant');

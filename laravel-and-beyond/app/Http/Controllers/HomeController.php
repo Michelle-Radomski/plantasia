@@ -21,9 +21,8 @@ class HomeController extends Controller
         return view('myplants', ['plants' => $plants, 'user' => $user]);
     }
 
-    public function plantDetails(Request $request)
+    public function plantDetails($id)
     {
-        $id = $request->id;
         $plant = Plant::find($id);
         return view('plantdetails', ['plant' => $plant]);
     }
@@ -52,9 +51,8 @@ class HomeController extends Controller
         return redirect('myplants');
     }
 
-    public function updateView(Request $request)
+    public function updateView($id)
     {
-        $id = $request->id;
         $plant = Plant::find($id);
         return view('update', ['plant' => $plant]);
     }
@@ -78,5 +76,12 @@ class HomeController extends Controller
         $plant->air_purifying = $request->air_purifying;
         $plant->save();
         return redirect()->route('plantdetails', ['id' => $plant->id]);
+    }
+
+    public function delete($id)
+    {
+        $plant = Plant::find($id);
+        $plant->delete();
+        return redirect()->route('myplants');
     }
 }
