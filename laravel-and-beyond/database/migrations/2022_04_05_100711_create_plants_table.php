@@ -16,19 +16,19 @@ return new class extends Migration
         Schema::create('plants', function (Blueprint $table) {
             $table->id();
             $table->foreignId('user_id')->default(1);
-            $table->string('nickname');
+            $table->string('nickname')->nullable();
             $table->string('official_name');
             $table->string('toxic');
-            $table->string('light');
-            $table->string('temperature');
-            $table->string('humidity');
-            $table->string('water');
-            $table->string('plant_fertilizer');
-            $table->string('soil');
+            $table->string('light')->nullable();
+            $table->string('temperature')->nullable();
+            $table->string('humidity')->nullable();
+            $table->string('water')->nullable();
+            $table->string('plant_fertilizer')->nullable();
+            $table->string('soil')->nullable();
             $table->string('misting');
-            $table->string('repot');
+            $table->string('repot')->nullable();
             $table->string('air_purifying');
-            // $table->string('plant_image');
+            $table->string('image')->nullable();
             $table->timestamps();
         });
     }
