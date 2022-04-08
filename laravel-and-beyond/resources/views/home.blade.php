@@ -38,6 +38,8 @@
             As for anything else, we got you covered. You can delete any specific plant that's no longer in your
             possession.
             Just like with update you can find a "Delete" button when you visit a specific plant in your collection.
-        </p>
+        </p><br>
+        <img src="https://image.shutterstock.com/image-photo/interior-design-urban-jungle-style-600w-1975546364.jpg"
+            alt="bathroom with an oasis of plants">
     </section>
 @endsection
