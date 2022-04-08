@@ -40,6 +40,6 @@
             Just like with update you can find a "Delete" button when you visit a specific plant in your collection.
         </p><br>
         <img src="https://image.shutterstock.com/image-photo/interior-design-urban-jungle-style-600w-1975546364.jpg"
-            alt="bathroom with an oasis of plants">
+            alt="Bathroom with an oasis of plants.">
     </section>
 @endsection

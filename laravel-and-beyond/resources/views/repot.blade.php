@@ -4,7 +4,7 @@
     <section id="repotcontainer" class="container">
         <h1>How to repot a plant?</h1><br>
         <img src="https://image.shutterstock.com/image-photo/repotting-plants-home-ficus-lyrata-600w-1705849018.jpg"
-            alt="Plant ready to be repotted">
+            alt="Plant ready to be repotted.">
         <h2>Why should you repot?</h2>
         <h3>1. To let your plant grow</h3>
         <p>
@@ -71,7 +71,7 @@
             pick as much soil as possible from between the roots and then add the fresh potting soil.
         </p><br>
         <img src="https://image.shutterstock.com/image-photo/repotting-green-plants-red-old-600w-1032599953.jpg"
-            alt="plant pots on wood stump">
+            alt="Plant pots on wood stump.">
 
         <h2>When should you repot?</h2>
         <p>In spring ofcourse!</p><br>
@@ -99,7 +99,7 @@
             place the root ball on the layer of soil and fill in the space around the root ball.
         </p><br>
         <img src="https://image.shutterstock.com/image-vector/transplanting-potted-flower-steps-vector-600w-1747090523.jpg"
-            alt="How to repot a plant, step by step">
+            alt="How to repot a plant, step by step.">
 
         <p class="bold">Repot to the same size</p><br>
         <p>

@@ -8,6 +8,7 @@
             @foreach ($plants as $plant)
                 <article class="plantoverviewarticle">
                     <h1>{{ $plant->nickname }}</h1>
+                    {{-- <img src="{{ asset('storage/' . $plant->image) }}" alt="Your beautiful plant."> --}}
                     <p>{{ $plant->official_name }}</p>
                     <a href="{{ route('myplants') }}/{{ $plant->id }}">More info</a>
                 </article>
