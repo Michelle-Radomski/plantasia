@@ -74,7 +74,7 @@
                 </select><br>
             </div>
 
-            <input type="submit" value="Add" class="button">
+            <input type="submit" value="ADD" class="button">
         </form>
     </section>
 @endsection
