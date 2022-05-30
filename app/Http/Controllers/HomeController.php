@@ -34,8 +34,6 @@ class HomeController extends Controller
 
     public function store(Request $request)
     {
-        $path = $request->file('image')->store('plants');
-
         $plant = new Plant;
         $plant->nickname = $request->nickname;
         $plant->official_name = $request->official_name;
@@ -49,7 +47,6 @@ class HomeController extends Controller
         $plant->toxic = $request->toxic;
         $plant->repot = $request->repot;
         $plant->air_purifying = $request->air_purifying;
-        $plant->image = $path;
         $plant->save();
         return redirect('myplants');
     }
@@ -62,8 +59,6 @@ class HomeController extends Controller
 
     public function update(Request $request)
     {
-        $path = $request->file('image')->store('plants');
-
         $id = $request->id;
         $plant = Plant::find($id);
 
@@ -79,7 +74,6 @@ class HomeController extends Controller
         $plant->toxic = $request->toxic;
         $plant->repot = $request->repot;
         $plant->air_purifying = $request->air_purifying;
-        $plant->image = $path;
         $plant->save();
         return redirect()->route('plantdetails', ['id' => $plant->id]);
     }
