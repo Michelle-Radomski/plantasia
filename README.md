@@ -1,4 +1,4 @@
-# Project: Laravel and beyond
+# Project: Plantasia
 
 ## Important note
 
