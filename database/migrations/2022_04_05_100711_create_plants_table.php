@@ -28,7 +28,6 @@ return new class extends Migration
             $table->string('misting');
             $table->string('repot')->nullable();
             $table->string('air_purifying');
-            $table->string('image')->nullable();
             $table->timestamps();
         });
     }

@@ -74,11 +74,6 @@
                 </select><br>
             </div>
 
-            <div>
-                <label for="image">Picture</label>
-                <input type="file" id="image" name="image">
-            </div>
-
             <input type="submit" value="ADD" class="button">
         </form>
     </section>
